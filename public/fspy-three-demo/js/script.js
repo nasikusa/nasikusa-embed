@@ -1,7 +1,7 @@
 var options = {
   canvasElement: document.querySelector('#myCanvas'),
-  canvasImage: '../stair.jpg',
-  fSpyJsonPath: '../stair.json',
+  canvasImage: './stair.jpg',
+  fSpyJsonPath: './stair.json',
   buttons: document.querySelectorAll('.js-button'),
 };
 
@@ -81,7 +81,7 @@ function createDefaultModel() {
 
 function createShadowModel() {
   var loader = new THREE.OBJLoader();
-  loader.load('../stair.obj', function (result) {
+  loader.load('./stair.obj', function (result) {
     var material = new THREE.ShadowMaterial();
     material.opacity = 0.3;
     var mesh = result.children[0];
