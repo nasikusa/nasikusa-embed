@@ -1,0 +1,23 @@
+{
+  "name": "nasikusa-embed",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --config bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasikusa/nasikusa-embed.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nasikusa/nasikusa-embed/issues"
+  },
+  "homepage": "https://github.com/nasikusa/nasikusa-embed#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
